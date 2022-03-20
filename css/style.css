@@ -1,0 +1,26 @@
+body {
+  background-color: #eee;
+}
+
+#omikujiBtn {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: firebrick;
+  box-shadow: 0 10px 0 darkred;
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select:none;
+  cursor: pointer;
+}
+
+#omikujiBtn:active {
+  margin-top: 60px;
+  box-shadow: 0 5px 0 darkred;
+  opacity: 0.9;
+}
